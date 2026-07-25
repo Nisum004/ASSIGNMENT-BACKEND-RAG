@@ -1,5 +1,6 @@
 [project]
 name = "assignment-backend-rag"
+version = "0.1.0"
 description = "FastAPI backend for document ingestion and conversational RAG"
 requires-python = ">=3.11"
 dependencies = [
