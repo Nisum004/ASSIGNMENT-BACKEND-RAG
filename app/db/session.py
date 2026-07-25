@@ -12,7 +12,7 @@ SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 
 
 def create_database() -> None:
-    import app.models  
+    import app.models  # noqa: F401
 
     Base.metadata.create_all(bind=engine)
 
