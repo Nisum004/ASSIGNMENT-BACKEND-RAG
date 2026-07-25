@@ -1,5 +1,4 @@
-"""In-memory fakes for the external-facing provider interfaces, used to keep unit
-tests deterministic and network-free."""
+
 
 from app.schemas.chat import BookingDraft
 from app.services.embeddings.base import EmbeddingProvider

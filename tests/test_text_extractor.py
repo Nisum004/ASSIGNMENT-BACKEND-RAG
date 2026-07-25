@@ -1,7 +1,5 @@
 from app.services.text_extractor import _collapse_letter_spacing, _looks_letter_spaced
 
-# Real pypdf output captured from a Canva-exported resume, where every glyph is
-# extracted as its own token and a double space marks the true word boundary.
 GARBLED_SAMPLE = (
     "N i s u m  Y o n g h a n g L L M / A I / M L  E n t h u s i a s t i c\n"
     "P h o n e :  + 9 7 7 - 9 8 6 3 6 9 2 4 1 8\n"
